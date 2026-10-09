@@ -92,3 +92,12 @@ docker-assignment/
 ```
 
 Good luck with your Docker containerization!
+
+How does containerization with Docker differ from using virtual machines, and why might a development
+team choose Docker containers over VMs for deploying applications like the one you just containerized?
+
+    Docker containers and virtual machines both help run applications, but they work differently. Virtual 
+machines have their own operating system, while Docker containers share the host system's kernel. Containers
+use fewer resources and start faster. Development teams may choose Docker because containers make 
+applications easier to move, test, and run on different computers. This makes deploying applications simpler 
+and moreconsistent.
